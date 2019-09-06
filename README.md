@@ -30,7 +30,7 @@
 
   对数据集进行了统计，结果如下。句子长度小于256的占据96%，因此该参数设置为256
 
-  ![data_state](.\img\data_state.jpg)
+  <img src=".\img\data_state.jpg" alt="data_state"  />
 
 - train_batch_size=16
 
@@ -42,11 +42,11 @@
 
   num_train_epochs = 2 ：
 
-  ![loss_1](.\img\loss_1.png)
+  <img src=".\img\loss_1.png" alt="loss_1"  />
 
   num_train_epochs = 3 ：
 
-  ![loss_2](.\img\loss_2.jpg)
+  <img src=".\img\loss_2.jpg" alt="loss_2"  />
 
 ## 实验结果
 
