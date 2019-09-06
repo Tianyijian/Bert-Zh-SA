@@ -30,7 +30,7 @@
 
   对数据集进行了统计，结果如下。句子长度小于256的占据96%，因此该参数设置为256
 
-  ![data_state](C:\Users\26241\Desktop\Bert-Zh-SA\img\data_state.jpg)
+  ![data_state](.\img\data_state.jpg)
 
 - train_batch_size=16
 
@@ -42,11 +42,11 @@
 
   num_train_epochs = 2 ：
 
-  ![loss_1](C:\Users\26241\Desktop\Bert-Zh-SA\img\loss_1.png)
+  ![loss_1](.\img\loss_1.png)
 
   num_train_epochs = 3 ：
 
-  ![loss_2](C:\Users\26241\Desktop\Bert-Zh-SA\img\loss_2.jpg)
+  ![loss_2](.\img\loss_2.jpg)
 
 ## 实验结果
 
@@ -59,8 +59,8 @@
 
 不同的训练参数下测试集的结果
 
-|       训练参数       |   P    |   R    |   F1   | Accuracy |
-| :------------------: | :----: | :----: | :----: | :------: |
-| num_train_epochs=2.0 | 0.7567 | 0.8288 | 0.7911 |  0.7812  |
-| num_train_epochs=3.0 | 0.7773 | 0.824  | 0.7999 |  0.794   |
+|       训练参数       |   P    |   R    |      F1      | Accuracy |
+| :------------------: | :----: | :----: | :----------: | :------: |
+| num_train_epochs=2.0 | 0.7567 | 0.8288 |    0.7911    |  0.7812  |
+| num_train_epochs=3.0 | 0.7773 | 0.824  | **0.7999** |  0.794   |
 
