@@ -8,6 +8,7 @@ positive_train_data = "./data/train_data/sample.positive.txt"
 negative_train_data = "./data/train_data/sample.negative.txt"
 test_data = "./data/test_data/test.txt"
 test_data_with_label = './data/test_data/test.label.cn.xml'
+test_data_result = './res/test_results.csv'
 data_list = []
 label_list = []
 
@@ -107,5 +108,6 @@ def eval(file):
 
 # just test
 if __name__ == '__main__':
-    data_parse()
-    load_test_data_raw()
+    # data_parse()
+    # load_test_data_raw()
+    eval(test_data_result)

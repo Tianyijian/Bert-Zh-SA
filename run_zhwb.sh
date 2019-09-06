@@ -13,5 +13,5 @@ python run_c.py \
   --max_seq_length=256 \
   --train_batch_size=16 \
   --learning_rate=5e-5 \
-  --num_train_epochs=2.0 \
+  --num_train_epochs=3.0 \
   --output_dir=$OUT_DIR
